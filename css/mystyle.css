@@ -23,6 +23,6 @@ header.masthead .masthead-subheading {
 }
 
 #logo {
-  height: 4em;
-  width: 4em;
+  height: 4em !important;;
+  width: 4em !important;;
 }
