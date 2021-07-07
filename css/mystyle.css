@@ -21,3 +21,8 @@ header.masthead .masthead-subheading {
 #mainNav .navbar-nav .nav-item:last-child {
   display: flex;
 }
+
+#logo {
+  height: 4em;
+  width: 4em;
+}
