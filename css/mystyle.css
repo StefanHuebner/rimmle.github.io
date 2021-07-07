@@ -1,13 +1,15 @@
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif !important;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 header.masthead .masthead-heading {
   text-align: left !important;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 header.masthead .masthead-subheading {
   text-align: left !important;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .btn-primary {
