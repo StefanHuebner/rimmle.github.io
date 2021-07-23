@@ -49,3 +49,7 @@ header.masthead .masthead-subheading {
 .text-center {
   text-align: justify;
 }
+
+#process > div > ul > li > .timeline-image {
+  background-color: #310F44;
+}
