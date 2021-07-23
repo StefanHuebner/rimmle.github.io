@@ -9,7 +9,9 @@ header.masthead .masthead-heading {
 
 header.masthead .masthead-subheading {
   text-align: left !important;
-  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;  
+  background-image: '/assets/bg2.jpg'
+  object-fit: cover;
 }
 
 .btn-primary {
@@ -35,14 +37,15 @@ header.masthead .masthead-subheading {
   width: 6em !important;;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link{
+#mainNav {
   background-color: white !important;
   color: black !important;
-}
-.section-subheading .text-muted {
-  text-align: justify;
 }
 
 .timeline-image {
   background-color: #310F44;
+}
+
+.text-center {
+  text-align: justify;
 }
