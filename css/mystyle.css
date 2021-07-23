@@ -27,9 +27,8 @@ header.masthead .masthead-subheading {
 .form-group {  
   color: #070000 !important;
 }
-
-#mainNav .navbar-nav .nav-item:last-child {
-  display: flex;
+nav-link {
+  color: black;
 }
 
 #logo {
