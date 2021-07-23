@@ -32,3 +32,8 @@ header.masthead .masthead-subheading {
   height: 4em !important;;
   width: 4em !important;;
 }
+
+.navbar{
+  background-color: white;
+  color: black;
+}
