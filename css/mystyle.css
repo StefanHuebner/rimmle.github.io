@@ -2,16 +2,18 @@ body {
   font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-header.masthead .masthead-heading {
-  text-align: justify !important;
+.masthead .masthead-heading {
   font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-header.masthead .masthead-subheading {
+.masthead {
   text-align: left !important;
   font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;  
   background-image: '/assets/bg2.jpg'
-  object-fit: cover;
+}
+
+.page-section h3.section-subheading, .page-section .section-subheading.h3{  
+  text-align: justify;
 }
 
 .btn-primary {
