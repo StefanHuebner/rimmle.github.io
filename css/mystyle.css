@@ -33,7 +33,7 @@ header.masthead .masthead-subheading {
   width: 4em !important;;
 }
 
-#mainNav{
+#mainNav .navbar-nav .nav-item .nav-link{
   background-color: white;
   color: black;
 }
