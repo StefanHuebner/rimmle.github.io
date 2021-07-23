@@ -1,15 +1,15 @@
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 header.masthead .masthead-heading {
-  text-align: left !important;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-align: justify !important;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 header.masthead .masthead-subheading {
   text-align: left !important;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 .btn-primary {
@@ -17,7 +17,9 @@ header.masthead .masthead-subheading {
   padding-right: 75px !important;
   margin: 100px !important;
   font-size: 2em !important;
-  color: #fff !important;
+  color: black !important;
+  background-color: white;
+  border-radius: 8px;
 }
 
 .form-group {  
@@ -30,10 +32,17 @@ header.masthead .masthead-subheading {
 
 #logo {
   height: 4em !important;;
-  width: 4em !important;;
+  width: 6em !important;;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
-  background-color: white;
-  color: black;
+  background-color: white !important;
+  color: black !important;
+}
+.section-subheading .text-muted {
+  text-align: justify;
+}
+
+.timeline-image {
+  background-color: #310F44;
 }
