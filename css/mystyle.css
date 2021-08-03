@@ -1,3 +1,49 @@
+.masthead {
+  text-align: left !important;
+  background-image: url('../assets/bg2.jpg');
+}
+
+.page-section h3.section-subheading, .page-section .section-subheading.h3{  
+  text-align: justify;
+}
+
+.btn-primary {
+  padding: 50px !important;
+  padding-right: 75px !important;
+  margin: 100px !important;
+  font-size: 2em !important;
+  color: black !important;
+  background-color: white;
+  border-radius: 8px;
+  border-color: black;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+#logo {
+  height: 4em !important;;
+  width: 6em !important;;
+}
+
+#mainNav {
+  background-color: white !important;
+  color: black !important;
+}
+
+.timeline-image {
+  background-color: #310F44;
+}
+
+.text-center {
+  text-align: justify;
+}
+
+#process > div > ul > li > .timeline-image {
+  background-color: #310F44;
+}
+
 /*
 body {
   font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
