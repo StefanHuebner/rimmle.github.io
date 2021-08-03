@@ -1,31 +1,53 @@
-.masthead {
+.masthead-heading > h1{
+  font-size: 0.75em;
+}
+
+.masthead-subheading{
+  font-size: 1.1em !important;
+}
+
+p{
+  color: black !important;
+}
+
+header.masthead {
   text-align: left !important;
-  background-image: url('../assets/bg2.jpg');
+  background-image: url('../assets/bg.jpg');
 }
 
 .page-section h3.section-subheading, .page-section .section-subheading.h3{  
   text-align: justify;
 }
 
-.btn-primary {
-  padding: 50px !important;
-  padding-right: 75px !important;
-  margin: 100px !important;
-  font-size: 2em !important;
-  color: black !important;
+.navbar-toggler {
+  color: black !important;    
+}
+
+.btn-primary{
+  padding: 40px;
+  margin-left: 50px;
+  font-size: 1.5em;
+  color: black;
   background-color: white;
   border-radius: 8px;
   border-color: black;
 }
 
 .btn-primary:hover {
-  padding: 50px !important;
-  padding-right: 75px !important;
-  margin: 100px !important;
-  font-size: 2em !important;
   color: white;
   background-color: black;
-  border-radius: 8px;
+  border-color: black;
+}
+
+.btn-primary:active{
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-primary:focus{
+  color: black;
+  background-color: white;
   border-color: black;
 }
 
@@ -54,65 +76,3 @@
 #process > div > ul > li > .timeline-image {
   background-color: #310F44;
 }
-
-/*
-body {
-  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-}
-
-.masthead .masthead-heading .masthead-subheading {
-  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-  color: white;
-}
-
-.masthead {
-  text-align: left !important;
-  font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;  
-  background-image: url('../assets/bg2.jpg');
-  color: white;
-}
-
-.page-section h3.section-subheading, .page-section .section-subheading.h3{  
-  text-align: justify;
-}
-
-.btn-primary {
-  padding: 50px !important;
-  padding-right: 75px !important;
-  margin: 100px !important;
-  font-size: 2em !important;
-  color: black !important;
-  background-color: white;
-  border-radius: 8px;
-}
-
-.form-group {  
-  color: #070000 !important;
-}
-
-.nav-link {
-  color: black !important;
-}
-
-#logo {
-  height: 4em !important;;
-  width: 6em !important;;
-}
-
-#mainNav {
-  background-color: white !important;
-  color: black !important;
-}
-
-.timeline-image {
-  background-color: #310F44;
-}
-
-.text-center {
-  text-align: justify;
-}
-
-#process > div > ul > li > .timeline-image {
-  background-color: #310F44;
-}
-*/
